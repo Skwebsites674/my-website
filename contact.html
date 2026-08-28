@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        .contact-box {
+            background-color: white;
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px #aaa;
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 12px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contact-box">
+
+        <h1>Contact Us</h1>
+
+        <p>Hum se rabta karne ke liye neeche form fill karein.</p>
+
+        <input type="text" placeholder="Apna Naam">
+
+        <input type="email" placeholder="Apni Email">
+
+        <textarea rows="5" placeholder="Apna Message"></textarea>
+
+        <br>
+
+        <button onclick="sendMessage()">Send Message</button>
+<a href="https://wa.me/923704645278" target="_blank">
+    <button>WhatsApp Par Contact Karein</button>
+</a>
+        <br><br>
+
+        <a href="index.html">Home Par Wapas Jao</a>
+
+    </div>
+<script>
+function sendMessage() {
+    alert("Message bhej diya gaya!");
+}
+</script>
+</body>
+</html>
